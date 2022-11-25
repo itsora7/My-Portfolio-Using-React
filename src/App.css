@@ -1,38 +1,86 @@
-.App {
+.topNav {
+  background: #d0ded7;
+}
+a {
+}
+.hero {
+  background: rgba(176, 224, 207, 0.24);
+  min-height: 60vh;
+}
+.hero img {
+  max-width: 300px;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: bold;
   text-align: center;
+  margin-top: 2rem;
+  letter-spacing: 0.3rem;
+  margin-bottom: 3rem;
+}
+.title span {
+  border-bottom: 5px solid #b0e0cf;
+  padding: 0.5rem 1rem;
+}
+/* icons  */
+.icons {
+  margin-top: 20%;
+  font-size: 3rem;
+  justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+  /* filter: grayscale(); */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.icons div {
+  margin-bottom: 2rem;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+.icons i {
+  font-style: 5rem;
+}
+.fa-figma {
+  color: aquamarine;
 }
 
-.App-link {
-  color: #61dafb;
+.fa-bootstrap {
+  columns: purple;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* projects section */
+.projects {
+  background: #b0e0cf5e;
 }
+.contact {
+  background: #b0e0cf;
+}
+
+#go-up {
+  position: fixed;
+  bottom: 30px;
+  right: 20px;
+  font-size: 2rem;
+}
+/* .go-up i{
+    box-shadow: -5px 5px 10px purple;
+
+} */
+
+.main-layout {
+  min-height: 100vh;
+}
+
+div.container-fluid {
+  text-decoration: none;
+}
+
+/* img {
+  filter: grayscale();
+}
+
+img:hover {
+  filter: none;
+} */
